@@ -119,6 +119,12 @@ export default defineField({
       title: 'Tags',
       type: 'string',
     }),
+    defineField({
+      fieldset: 'organization',
+      name: 'category',
+      title: 'Category',
+      type: 'string',
+    }),
     // Price range
     defineField({
       name: 'priceRange',
